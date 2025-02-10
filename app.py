@@ -27,7 +27,7 @@ def main():
         st.markdown(f"<p style='font-size: 5em;'>{st.session_state.random_number}</p>", unsafe_allow_html=True)
 
     # 答えを表示するボタン
-    if st.session_state.random_number is not None and st.button("答えを表示"):
+    if st.session_state.random_number is not None and st.button("2乗数を表示"):
         square = st.session_state.random_number ** 2
         st.markdown(f"<p style='font-size: 5em;'> {square}</p>", unsafe_allow_html=True)
 
