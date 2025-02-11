@@ -19,7 +19,7 @@ def main():
         st.session_state.random_number = None
 
     # 2桁の数字を生成ボタン
-    if st.button("2桁の数字を生成"):
+    if st.button("二桁の数字を生成"):
         st.session_state.random_number = random.randint(min_value, max_value)
 
     # 現在のランダムな数字を表示
